@@ -26,6 +26,7 @@ declare module 'react-native-maps' {
     longitude: number;
     latitudeDelta: number;
     longitudeDelta: number;
+    useNativeDriver?: boolean;
   }
 
   export interface LatLng {
@@ -91,6 +92,7 @@ declare module 'react-native-maps' {
     longitude: Animated.Value;
     latitudeDelta: Animated.Value;
     longitudeDelta: Animated.Value;
+    useNativeDriver?: boolean;
 
     constructor(region?: Region);
 
